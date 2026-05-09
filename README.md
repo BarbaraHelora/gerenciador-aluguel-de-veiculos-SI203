@@ -1,4 +1,4 @@
-# 🚗 Sistema de Gerenciamento de Aluguel de Veículos
+# Sistema de Gerenciamento de Aluguel de Veículos
 
 > **Projeto desenvolvido como exigência parcial da disciplina SI203/SI200 (Algoritmos e Programação de Computadores II) da Faculdade de Tecnologia - UNICAMP.**
 
@@ -6,33 +6,33 @@
 ![Status](https://img.shields.io/badge/status-Concluído-success)
 ![University](https://img.shields.io/badge/unicamp-FT-orange)
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto consiste em um sistema completo para automação e gerenciamento de uma locadora de veículos. O objetivo principal foi desenvolver uma solução que otimize o fluxo de trabalho de uma frota, substituindo processos manuais propensos a erros por um sistema confiável e ágil.
 
 O software foi desenvolvido inteiramente em **Linguagem C**, utilizando conceitos avançados de manipulação de arquivos binários para garantir a persistência dos dados de clientes, veículos e contratos de aluguel, mesmo após o fechamento do programa.
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 O sistema conta com um menu interativo via console que permite realizar todas as operações essenciais (CRUD) e processos de negócio da locadora:
 
-### 🚘 Gestão de Frota (Carros)
+### Gestão de Frota (Carros)
 - **Cadastrar:** Adição de novos veículos com ID, modelo, placa, ano e preço da diária.
 - **Consultar:** Listagem geral, apenas de carros disponíveis ou apenas de carros alugados.
 - **Editar:** Atualização de dados de veículos já cadastrados.
 - **Excluir:** Remoção de veículos do sistema.
 
-### 👥 Gestão de Clientes
+### Gestão de Clientes
 - **Cadastrar:** Registro de clientes com ID, nome, CNH, telefone e e-mail.
 - **Consultar:** Visualização da base completa de clientes.
 - **Editar:** Alteração de informações de contato ou documentos.
 - **Excluir:** Remoção de clientes da base de dados.
 
-### 🔑 Operações de Aluguel
+### Operações de Aluguel
 - **Realizar Aluguel:** Vincula um carro disponível a um cliente cadastrado, gerando um contrato ativo.
 - **Realizar Devolução:** Finaliza o contrato, liberando o carro novamente para a frota de disponíveis.
 
-## 🛠️ Tecnologias e Conceitos Utilizados
+## Tecnologias e Conceitos Utilizados
 
 - **Linguagem C:** Lógica principal e estruturação do código.
 - **Structs:** Organização dos dados complexos (Carro, Cliente, Aluguel).
@@ -41,7 +41,7 @@ O sistema conta com um menu interativo via console que permite realizar todas as
   - Armazenamento em arquivos `.txt` (modo binário/texto) para persistência de dados (`carros.txt`, `clientes.txt`, `carrosalugados.txt`).
 - **Modularização:** Código dividido em arquivos `.c` e `.h` (`Aluguel.c`, `Carros.c`, `Clientes.c`) para melhor organização e manutenção.
 
-## 🚀 Como Executar
+## Como Executar
 
 Para rodar o projeto em sua máquina, você precisará de um compilador C (como o GCC).
 
