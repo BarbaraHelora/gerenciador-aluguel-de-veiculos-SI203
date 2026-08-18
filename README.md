@@ -62,7 +62,7 @@ Para rodar o projeto em sua máquina, você precisará de um compilador C (como 
 
 ## **Projeto desenvolvido pelas alunas do curso de Tecnologia em Análise e Desenvolvimento de Sistemas:**
 
-Barbára Helóra Nigra Táparo
+Bárbara Helóra Nigra Táparo
 
 Bianka Barboza Baptista de Oliveira
 
